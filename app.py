@@ -11,7 +11,6 @@ log()
 
 @app.route('/')
 def hello_world():
-    print("hello world")
     return 'Hello, Docker!'
 
 @app.route("/health_check")
