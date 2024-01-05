@@ -3,7 +3,6 @@ app = Flask(__name__)
 
 def log():
     print("logging................................")
-    print("loading................................")
 
 log()
 
